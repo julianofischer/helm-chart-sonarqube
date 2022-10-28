@@ -1,0 +1,14 @@
+searchNodes:
+  sonarProperties:
+    sonar.forceAuthentication: true
+    sonar.security.realm: LDAP
+    ldap.url: ldaps://organization.com
+
+ApplicationNodes:
+  sonarProperties:
+    sonar.forceAuthentication: true
+    sonar.security.realm: LDAP
+    ldap.url: ldaps://organization.com
+
+sonarSecretKey: "settings-encryption-secret"
+

@@ -1,0 +1,11 @@
+sonarProperties:
+  sonar.forceAuthentication: true
+  sonar.security.realm: LDAP
+  ldap.url: ldaps://organization.com
+
+sonarSecretProperties:
+  some: properties
+
+sonarSecretKey: "settings-encryption-secret"
+elasticsearch:
+  bootstrapChecks: false
