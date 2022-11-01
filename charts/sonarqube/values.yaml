@@ -521,3 +521,7 @@ extraConfig:
 # sonarWebContext: /
 
 terminationGracePeriodSeconds: 60
+
+# enables persistence at the risk of corrupting elasticsearch db
+persistence:
+  enabled: true
